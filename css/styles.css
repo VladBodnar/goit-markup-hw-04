@@ -158,10 +158,17 @@ header {
 /*Герой*/
 
 .hero {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--dark-bg-cl);
   text-align: center;
+  background-color: var(--dark-bg-cl);
+  background-image: url(../images/fon/fon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 
 .hero-title {
