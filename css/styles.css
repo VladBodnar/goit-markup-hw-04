@@ -321,6 +321,27 @@ header {
   color: var(--main-txt-cl);
 }
 
+/*socials icons*/
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff ;
+  border-radius: 50%;
+}
+
+.socials-item:not(:last-child) {
+  margin-right: 10px ;
+}
+
 /*Контент портфолио*/
 
 /*Фильтра*/
