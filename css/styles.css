@@ -467,6 +467,51 @@ background-color: #2196F3;
   color: var(--main-txt-cl);
 }
 
+/*Клиенты*/
+
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 116px;    
+}
+
+.clients-list {
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.clients-item:not(:last-child) {
+  margin-right: auto;
+}
+
+.clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients-icon {
+  fill:#AFB1B8 ;
+}
+
+
+.clients-link:hover,
+.clients-link:focus  {
+  border-color: #2196F3;
+}
+
+
+.clients-link:focus .clients-icon,
+.clients-link:hover .clients-icon {
+  fill: #2196f3;
+}
+
+
 /*Подвал*/
 
 .footer {
@@ -483,8 +528,7 @@ background-color: #2196F3;
 }
 
 
-.footer-cont {
-  
+.footer-cont {  
   margin-right: 70px;
 }
 
