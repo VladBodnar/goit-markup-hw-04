@@ -146,6 +146,8 @@ header {
 }
 
 .contakts-link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   line-height: 1.14;
   color: var(--main-txt-cl);
@@ -153,6 +155,11 @@ header {
 
 .contakts-link:hover {
   color: var(--accent-cl);
+}
+
+.contakts-icon {
+margin-right: 10px;
+fill: currentColor;
 }
 
 /*Герой*/
@@ -463,12 +470,22 @@ background-color: #2196F3;
 /*Подвал*/
 
 .footer {
+  
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--dark-bg-cl);
+  
 }
 
+.foot-cont {
+  display: flex;
+ 
+}
+
+
 .footer-cont {
+  
+  margin-right: 70px;
 }
 
 .logo-footer {
@@ -513,4 +530,56 @@ background-color: #2196F3;
 .email:hover,
 .phone:hover {
   color: var(--accent-cl);
+}
+
+.connect {
+  padding-top: 12px;
+ display: block;
+
+}
+
+.connect-name {
+  
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/*socials icons*/
+.connect-list {
+  display: flex;
+  align-items: center;
+  
+}
+
+.connect-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.connect-link:hover .socials-icon,
+.connect-link:focus .socials-icon {
+  fill: #FFFFFF;
+}
+
+.connect-link:hover,
+.connect-link:focus {
+  background-color: #2196F3;
+}
+
+.connect-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.connect-icon {
+  fill: #FFFFFF;
 }
