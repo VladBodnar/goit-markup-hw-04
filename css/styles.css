@@ -111,7 +111,7 @@ header {
 
 .contakts-link,
 .navigation-link {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -121,7 +121,7 @@ header {
 }
 
 .navigation-activ {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -134,6 +134,8 @@ header {
 
 .contakts {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
 }
 
@@ -158,8 +160,9 @@ header {
 }
 
 .contakts-icon {
-margin-right: 10px;
-fill: currentColor;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /*Герой*/
@@ -175,7 +178,6 @@ fill: currentColor;
   background-image: url(../images/fon/fon.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  
 }
 
 .hero-title {
@@ -234,6 +236,19 @@ fill: currentColor;
 
 .benefits-item:last-child {
   margin-right: 0;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.benefits-icon {
 }
 
 .section-title {
@@ -342,30 +357,27 @@ fill: currentColor;
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: #ffffff ;
+  background-color: #ffffff;
   border-radius: 50%;
 }
 
 .socials-link:hover .socials-icon,
 .socials-link:focus .socials-icon {
-  fill: #FFFFFF;  
+  fill: #ffffff;
 }
 
 .socials-link:hover,
 .socials-link:focus {
-background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .socials-item:not(:last-child) {
-  margin-right: 10px ;
+  margin-right: 10px;
 }
 
 .socials-icon {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
-
-
-
 
 /*Контент портфолио*/
 
@@ -471,13 +483,13 @@ background-color: #2196F3;
 
 .clients-section {
   padding-top: 94px;
-  padding-bottom: 116px;    
+  padding-bottom: 116px;
 }
 
 .clients-list {
   display: flex;
- align-items: center;
- justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .clients-item:not(:last-child) {
@@ -491,44 +503,37 @@ background-color: #2196F3;
   width: 170px;
   height: 92px;
 
-  border: 1px solid #AFB1B8;
-    border-radius: 4px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .clients-icon {
-  fill:#AFB1B8 ;
+  fill: #afb1b8;
 }
-
 
 .clients-link:hover,
-.clients-link:focus  {
-  border-color: #2196F3;
+.clients-link:focus {
+  border-color: #2196f3;
 }
-
 
 .clients-link:focus .clients-icon,
 .clients-link:hover .clients-icon {
   fill: #2196f3;
 }
 
-
 /*Подвал*/
 
 .footer {
-  
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--dark-bg-cl);
-  
 }
 
 .foot-cont {
   display: flex;
- 
 }
 
-
-.footer-cont {  
+.footer-cont {
   margin-right: 70px;
 }
 
@@ -578,26 +583,23 @@ background-color: #2196F3;
 
 .connect {
   padding-top: 12px;
- display: block;
-
+  display: block;
 }
 
 .connect-name {
-  
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /*socials icons*/
 .connect-list {
   display: flex;
   align-items: center;
-  
 }
 
 .connect-link {
@@ -612,12 +614,12 @@ background-color: #2196F3;
 
 .connect-link:hover .socials-icon,
 .connect-link:focus .socials-icon {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .connect-link:hover,
 .connect-link:focus {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .connect-item:not(:last-child) {
@@ -625,5 +627,5 @@ background-color: #2196F3;
 }
 
 .connect-icon {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
