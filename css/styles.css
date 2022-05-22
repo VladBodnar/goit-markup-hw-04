@@ -150,7 +150,6 @@ header {
 .contakts-link {
   display: flex;
   align-items: center;
-  height: 16px;
   font-weight: 500;
   line-height: 1.14;
   color: var(--main-txt-cl);
@@ -175,8 +174,8 @@ header {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-color: var(--dark-bg-cl);
-  background-image: url(../images/fon/fon.jpg);
+  background-color: #C4C4C4;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fon/fon.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -240,10 +239,10 @@ header {
 }
 
 .icon-box {
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 270px;
+  justify-content: center;  
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -323,7 +322,7 @@ header {
 
 .avatar-name {
   padding-top: 32px;
-  padding-bottom: 16px;
+  padding-bottom: 32px;
 }
 
 .avatar {
@@ -337,6 +336,7 @@ header {
 }
 
 .profession {
+  margin-bottom: 16px;
   text-align: center;
   font-size: 16px;
   line-height: 1.19;
@@ -348,8 +348,7 @@ header {
 .socials {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
+  align-items: center;  
 }
 
 .socials-link {
@@ -494,7 +493,7 @@ header {
 }
 
 .clients-item:not(:last-child) {
-  margin-right: auto;
+  margin-right: 30px;
 }
 
 .clients-link {
@@ -532,6 +531,7 @@ header {
 
 .foot-cont {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-cont {
@@ -583,7 +583,6 @@ header {
 }
 
 .connect {
-  padding-top: 12px;
   display: block;
 }
 
