@@ -321,8 +321,8 @@ header {
 }
 
 .avatar-name {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .avatar {
@@ -446,6 +446,16 @@ header {
 .page-item {
   width: 370px;
   margin-right: 30px;
+}
+
+.page-link {
+  display: block;
+}
+
+.page-link:hover,
+.page-link:focus {
+  display: block;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .page-item:nth-child(-n + 6) {
